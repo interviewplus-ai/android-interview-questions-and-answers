@@ -16,7 +16,7 @@ Most targeted up-to-date php Android interview questions and answers list
 - [What is the Android Support Library?](#what-is-the-android-support-library)
 - [What is Dependency Injection (DI) in Android?](#what-is-dependency-injection-di-in-android)
 
-## What is an Activity in Android?
+## 1. What is an Activity in Android?
 
 Answer: An Activity represents a single screen with a user interface. For example, an email application might have one activity that shows a list of new emails, another activity to compose an email, and another activity for reading emails. Each activity is independent of the others and can be launched individually.
 
