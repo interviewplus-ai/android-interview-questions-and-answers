@@ -4,17 +4,17 @@ Most targeted up-to-date php Android interview questions and answers list
 
 # Table of Contents
 
-- [What is an Activity in Android?](#what-is-an-activity-in-android)
-- [What is a Fragment in Android?](#what-is-a-fragment-in-android)
-- [What is a Service in Android?](#what-is-a-service-in-android)
-- [What is a BroadcastReceiver in Android?](#what-is-a-broadcastreceiver-in-android)
-- [What is a ContentProvider in Android?](#what-is-a-contentprovider-in-android)
-- [What is an Intent in Android?](#what-is-an-intent-in-android)
-- [What is an AsyncTask in Android?](#what-is-an-asynctask-in-android)
-- [What is a RecyclerView in Android?](#what-is-a-recyclerview-in-android)
-- [What is the difference between Serializable and Parcelable in Android?](#what-is-the-difference-between-serializable-and-parcelable-in-android)
-- [What is the Android Support Library?](#what-is-the-android-support-library)
-- [What is Dependency Injection (DI) in Android?](#what-is-dependency-injection-di-in-android)
+- [1. What is an Activity in Android?](#1-what-is-an-activity-in-android)
+- [2. What is a Fragment in Android?](#2-what-is-a-fragment-in-android)
+- [3. What is a Service in Android?](#3-what-is-a-service-in-android)
+- [4. What is a BroadcastReceiver in Android?](#4-what-is-a-broadcastreceiver-in-android)
+- [5. What is a ContentProvider in Android?](#5-what-is-a-contentprovider-in-android)
+- [6. What is an Intent in Android?](#6-what-is-an-intent-in-android)
+- [7. What is an AsyncTask in Android?](#7-what-is-an-asynctask-in-android)
+- [8. What is a RecyclerView in Android?](#8-what-is-a-recyclerview-in-android)
+- [9. What is the difference between Serializable and Parcelable in Android?](#9-what-is-the-difference-between-serializable-and-parcelable-in-android)
+- [10. What is the Android Support Library?](#10-what-is-the-android-support-library)
+- [11. What is Dependency Injection (DI) in Android?](#11-what-is-dependency-injection-di-in-android)
 
 ## 1. What is an Activity in Android?
 
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 }
 ```
 
-## What is a Fragment in Android?
+## 2. What is a Fragment in Android?
 
 Answer: A Fragment represents a behavior or a portion of the user interface in an Activity. You can combine multiple fragments in a single activity to build a multi-pane UI and reuse a fragment in multiple activities.
 
@@ -49,7 +49,7 @@ public class ExampleFragment extends Fragment {
 }
 ```
 
-## What is a Service in Android?
+## 3. What is a Service in Android?
 
 Answer: A Service is a component that runs in the background to perform long-running operations or to perform work for remote processes.
 
@@ -65,7 +65,7 @@ public class ExampleService extends Service {
 }
 ```
 
-## What is a BroadcastReceiver in Android?
+## 4. What is a BroadcastReceiver in Android?
 
 Answer: A BroadcastReceiver is a component that responds to system-wide broadcast announcements. Many broadcasts originate from the system—for example, a broadcast announcing that the screen has turned off, the battery is low, or a picture was captured. Applications can also initiate broadcasts—for example, to let other applications know that some data has been downloaded to the device and is available for them to use.
 
@@ -80,7 +80,7 @@ public class ExampleReceiver extends BroadcastReceiver {
 }
 ```
 
-## What is a ContentProvider in Android?
+## 5. What is a ContentProvider in Android?
 
 Answer: A ContentProvider manages a shared set of application data. You can store the data in the file system, in a SQLite database, on the web, or any other persistent storage location your application can access.
 
@@ -96,7 +96,7 @@ public class ExampleProvider extends ContentProvider {
 }
 ```
 
-## What is an Intent in Android?
+## 6. What is an Intent in Android?
 
 Answer: An Intent is a messaging object that you can use to request an action from another app component. For example, you can use an intent to start an activity, to start a service, or to deliver a broadcast.
 
@@ -107,7 +107,7 @@ Intent intent = new Intent(this, ExampleActivity.class);
 startActivity(intent);
 ```
 
-## What is an AsyncTask in Android?
+## 7. What is an AsyncTask in Android?
 
 Answer: An AsyncTask is a class that helps you perform background operations and publish results on the UI thread without having to manipulate threads and/or handlers.
 
@@ -128,7 +128,7 @@ public class ExampleTask extends AsyncTask<Void, Void, Void> {
 }
 ```
 
-## What is a RecyclerView in Android?
+## 8. What is a RecyclerView in Android?
 
 Answer: A RecyclerView is a more advanced and flexible version of the ListView. It is used to display a large data set efficiently by reusing views as the user scrolls through the data.
 
@@ -163,7 +163,7 @@ public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHold
 }
 ```
 
-## What is the difference between Serializable and Parcelable in Android?
+## 9. What is the difference between Serializable and Parcelable in Android?
 
 Answer: Serializable and Parcelable are both mechanisms to transfer data between components in Android. Serializable is a default Java mechanism, while Parcelable is an Android-specific mechanism that provides better performance. Parcelable requires explicit implementation but is faster and more efficient for passing large amounts of data.
 
@@ -201,11 +201,11 @@ public class ExampleModel implements Parcelable {
 }
 ```
 
-## What is the Android Support Library?
+## 10. What is the Android Support Library?
 
 Answer: The Android Support Library is a set of code libraries that provide backward-compatible versions of Android framework APIs. It allows developers to use new APIs and features on older versions of Android by providing compatibility wrappers.
 
-## What is Dependency Injection (DI) in Android?
+## 11. What is Dependency Injection (DI) in Android?
 
 Answer: Dependency Injection is a design pattern and a technique in which one object supplies the dependencies of another object. It helps to improve the modularity and testability of an application by reducing the direct dependencies between components.
 
