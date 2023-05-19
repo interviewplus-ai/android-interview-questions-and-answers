@@ -1,6 +1,6 @@
 # Android Interview Questions And Answers
 
-Most targeted up-to-date php Android interview questions and answers list
+Most targeted up-to-date Android interview questions and answers list
 
 # Table of Contents
 
