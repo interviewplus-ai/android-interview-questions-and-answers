@@ -132,7 +132,7 @@ public class ExampleTask extends AsyncTask<Void, Void, Void> {
 
 Answer: A RecyclerView is a more advanced and flexible version of the ListView. It is used to display a large data set efficiently by reusing views as the user scrolls through the data.
 
-Example code
+Example code:
 
 ```java
 public class ExampleAdapter extends RecyclerView.Adapter<ExampleAdapter.ViewHolder> {
