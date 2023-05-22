@@ -4,17 +4,17 @@ Most targeted up-to-date Android interview questions and answers list
 
 # Table of Contents
 
-- [1. What is an Activity in Android?](#1-what-is-an-activity-in-android)
-- [2. What is a Fragment in Android?](#2-what-is-a-fragment-in-android)
-- [3. What is a Service in Android?](#3-what-is-a-service-in-android)
-- [4. What is a BroadcastReceiver in Android?](#4-what-is-a-broadcastreceiver-in-android)
-- [5. What is a ContentProvider in Android?](#5-what-is-a-contentprovider-in-android)
-- [6. What is an Intent in Android?](#6-what-is-an-intent-in-android)
-- [7. What is an AsyncTask in Android?](#7-what-is-an-asynctask-in-android)
-- [8. What is a RecyclerView in Android?](#8-what-is-a-recyclerview-in-android)
-- [9. What is the difference between Serializable and Parcelable in Android?](#9-what-is-the-difference-between-serializable-and-parcelable-in-android)
-- [10. What is the Android Support Library?](#10-what-is-the-android-support-library)
-- [11. What is Dependency Injection (DI) in Android?](#11-what-is-dependency-injection-di-in-android)
+1. [What is an Activity in Android?](#1-what-is-an-activity-in-android)
+2. [What is a Fragment in Android?](#2-what-is-a-fragment-in-android)
+3. [What is a Service in Android?](#3-what-is-a-service-in-android)
+4. [What is a BroadcastReceiver in Android?](#4-what-is-a-broadcastreceiver-in-android)
+5. [What is a ContentProvider in Android?](#5-what-is-a-contentprovider-in-android)
+6. [What is an Intent in Android?](#6-what-is-an-intent-in-android)
+7. [What is an AsyncTask in Android?](#7-what-is-an-asynctask-in-android)
+8. [What is a RecyclerView in Android?](#8-what-is-a-recyclerview-in-android)
+9. [What is the difference between Serializable and Parcelable in Android?](#9-what-is-the-difference-between-serializable-and-parcelable-in-android)
+10. [What is the Android Support Library?](#10-what-is-the-android-support-library)
+11. [What is Dependency Injection (DI) in Android?](#11-what-is-dependency-injection-di-in-android)
 
 ## 1. What is an Activity in Android?
 
