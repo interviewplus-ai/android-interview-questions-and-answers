@@ -15,6 +15,9 @@ Most targeted up-to-date Android interview questions and answers list
 9. [What is the difference between Serializable and Parcelable in Android?](#9-what-is-the-difference-between-serializable-and-parcelable-in-android)
 10. [What is the Android Support Library?](#10-what-is-the-android-support-library)
 11. [What is Dependency Injection (DI) in Android?](#11-what-is-dependency-injection-di-in-android)
+- [Whats more?](#whats-more)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## 1. What is an Activity in Android?
 
